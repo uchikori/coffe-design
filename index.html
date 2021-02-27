@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper{
+            width: 100vw;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- <figure class="wrapper">
+        <img src="dist/images/LP-design-sp.jpg" alt="" class="img-header">
+    </figure> -->
+    <picture class="wrapper">
+        <source media="(min-width: 769px)" type="image/png" srcset="LP-design.jpg">
+        <source media="(min-width: 100px)" type="image/png" srcset="LP-design-sp.jpg">
+
+        <img src="LP-design.jpg" alt="main-visual">
+    </picture>
+    
+
+    
+</body>
+</html>
